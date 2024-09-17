@@ -1,0 +1,16 @@
+-- CRUD significa Create, read, update, delete
+-- realizamos la consulta de todos los estudiantes
+SELECT * FROM estudiante;
+
+-- Create (Insertar)
+INSERT INTO estudiante(nombre, apellido, telefono, email) VALUES("Juan","Perez","8877665544","juan@mail.com");
+INSERT INTO estudiante(nombre, apellido, telefono, email) VALUES("Alex","Cesar","60827098","alex@mail.com");
+
+-- Update (Modificar)
+UPDATE estudiante SET nombre = "Juan Carlos", apellido = "Garcia" WHERE idestudiante = 1;
+
+-- Delete (Eliminar)
+DELETE FROM estudiante WHERE idestudiante = 1;
+
+-- Buscar por ID 
+SELECT * FROM estudiante WHERE idestudiante = 2;
