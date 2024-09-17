@@ -197,15 +197,18 @@ public class EstudianteDAO {
         } else {
             System.out.println("NO se ha eliminado el registro: " +estudianteEliminar);
         }
-        
+
          */
 
         //Listar estudiantes
+        /*
         System.out.println("Realizando la consulta de TODOS los estudiantes en la BD...\n\n");
         System.out.println("Listado de estudiantes: \n\n");
         List<Estudiante> estudiantes = estudianteDao.listar();
         estudiantes.forEach(System.out::println);
         System.out.println("\n\n");
+
+         */
 
         //Buscar por ID
         /*
